@@ -2,5 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "\n\n"
-echo "Husky: Make sure to build the project before pushing changes."
+echo "Husky: 🚨🚨 Make sure to build the project before pushing changes."
 echo "\n\n"
