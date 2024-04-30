@@ -1,0 +1,50 @@
+# env
+.env
+
+# compiled output
+/dist
+/node_modules
+/documentation
+/coverage
+/.localstack
+
+# configs
+local.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+src/coverage
+/.nyc_output
+/coverage
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# Since we're using code first approach, we don't need to push the schema files, 
+# they'll be auto generated at compile time
+*.gql

@@ -1,0 +1,1 @@
+/* Export any static assets like json etc */
