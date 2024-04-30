@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+echo "\n"
 echo "Husky: Running pre-commit hook(s)."
 echo "\n"
 echo "👀 Running Lint"
 
 npm run lint
-echo "\n"
 echo "✅ Linting passed"
 
 echo "\n"
